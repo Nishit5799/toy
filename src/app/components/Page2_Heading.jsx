@@ -31,10 +31,10 @@ const Page2_Heading = () => {
   });
 
   return (
-    <div className="headingcontainer text-[15vw] overflow-hidden flex sm:text-[8vw] mb-8 sm:mb-4">
+    <div className="headingcontainer text-[11vw]   overflow-hidden flex sm:text-[8vw] mb-8 sm:mb-4">
       {"Creative Toys".split("").map((e, i) => {
         return (
-          <span key={i} className="heading inline-block">
+          <span key={i} className="heading inline-block  mx-auto">
             {e === " " ? "\u00A0" : e} {/* Treat space as a character */}
           </span>
         );

@@ -32,7 +32,7 @@ const Page1_DownArrow = () => {
   });
   return (
     <div
-      className="top-[160vw] left-44 menu sm:h-14 sm:w-14 rounded-full  flex items-center justify-center  absolute z-[12] sm:top-[40vw] cursor-pointer sm:left-1/2 transition-all duration-500 ease-in-out  sm:hover:shadow-[0px_0px_20px_10px_rgba(255,165,0,0.7)]"
+      className="top-[166vw] left-44 menu sm:h-14 sm:w-14 rounded-full  flex items-center justify-center  absolute z-[12] sm:top-[40vw] cursor-pointer sm:left-1/2 transition-all duration-500 ease-in-out  sm:hover:shadow-[0px_0px_20px_10px_rgba(255,165,0,0.7)]"
       onClick={handleDownArrow}
     >
       <div className="menus w-full h-full text-gray-400  flex items-center justify-center">

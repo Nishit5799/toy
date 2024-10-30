@@ -30,7 +30,7 @@ const Page3_Heading = () => {
   });
 
   return (
-    <div className="headingcontainer1  text-[11vw] overflow-hidden flex sm:text-[8vw] sm:mx-auto mb-8 sm:mb-4">
+    <div className="headingcontainer1  text-[10vw] overflow-hidden flex sm:text-[8vw] sm:mx-auto mb-8 sm:mb-4">
       {"Premium Quality".split("").map((e, i) => {
         return (
           <span key={i} className="heading1 inline-block mx-auto ">
